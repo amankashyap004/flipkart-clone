@@ -1,0 +1,151 @@
+/* ------------------------Media Queries 800px------------------------ */
+
+@media screen and (max-width: 800px) {
+
+    /* ------------------------Header------------------------ */
+    .hide-1 {
+        display: none;
+    }
+
+    .header-search-bar {
+        width: 50vw;
+    }
+
+    /* ------------------------Navigation Category------------------------ */
+    .nav-category {
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+
+    .nav-category-left {
+        margin-bottom: 20px;
+    }
+
+    .nav-category-right {
+        margin-bottom: 20px;
+    }
+}
+
+/* ------------------------Media Queries 650px------------------------ */
+@media screen and (max-width: 650px) {
+
+    /* ------------------------Header------------------------ */
+    .header {
+        display: none;
+    }
+
+    .header-second {
+        display: block;
+    }
+
+    /* ------------------------Bank Offer Post------------------------ */
+    .bank-Offer-post-img img {
+        width: 80%;
+    }
+}
+
+/* ------------------------Media Queries 550px------------------------ */
+@media screen and (max-width: 550px) {
+
+    /* ------------------------Header------------------------ */
+    .header-second-main {
+        display: flex;
+        flex-direction: column;
+        background-color: #2874f0;
+        height: 98px;
+        padding: 10px 10px;
+    }
+
+    .header-second-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px 0;
+
+    }
+
+    .header-second-search-bar {
+        background-color: white;
+        padding: 8px 10px;
+        width: 100vw;
+        border-radius: 2px;
+    }
+
+    .header-second-search-bar form input {
+        font-size: 1em;
+    }
+
+    /* ------------------------Navigation Category------------------------ */
+    .nav-category {
+        padding: 10px 0;
+        border-radius: 0;
+    }
+
+    /* ------------------------Auto Slider------------------------ */
+    .auto-slider {
+        margin: 20px 0;
+        height: 200px;
+        border-radius: 0;
+    }
+
+    .auto-slider-left-btn i,
+    .auto-slider-right-btn i {
+        padding: 30px 8px;
+        background-color: white;
+        font-size: 25px;
+    }
+
+    /* ------------------------Bank Offer Post------------------------ */
+    .bank-Offer-post {
+        margin: 10px 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .bank-Offer-post-img img {
+        width: 100%;
+    }
+
+    /* ------------------------Top Three Product------------------------ */
+    .top-three-product {
+        margin: 10px 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .top-three-product-contain img {
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    /* ------------------------Top Offer With Slide Bar------------------------ */
+    .top-offer-with-slide-bar {
+        margin: 10px 0;
+        border-radius: 0;
+    }
+
+    .top-offer-with-slide-bar-left-btn button {
+        padding: 8px 8px;
+    }
+
+    .top-offer-with-slide-bar-left-btn button a {
+        font-size: .8em;
+    }
+
+    /* ------------------------Top Nine Product------------------------ */
+    .top-nine-product {
+        margin: 10px 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .top-nine-product-contain img {
+        padding: 5px;
+        border-radius: 15px;
+    }
+
+    /* ------------------------Footer------------------------ */
+    .footer {
+        height: 50px;
+    }
+}
